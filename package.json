@@ -1,0 +1,28 @@
+{
+  "name": "@mahdijz5/my-first-package",
+  "version": "1.1.3",
+  "description": "",
+  "main": "dist/index.js",
+
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "prepublish": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^9.4.0",
+    "@nestjs/config": "^2.3.1",
+    "@nestjs/microservices": "^9.4.0",
+    "@nestjs/typeorm": "^9.0.1",
+    "@types/node": "^18.16.3",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^5.0.0",
+    "rxjs": "^7.8.1",
+    "typeorm": "^0.3.15",
+    "typescript": "^5.0.4"
+  }
+}
